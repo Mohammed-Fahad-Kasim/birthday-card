@@ -23,9 +23,15 @@ body{margin:0;font-family:Georgia,serif;overflow:hidden;background:url('https://
 }
 @keyframes flip{from{opacity:0;transform:rotateY(25deg) translateX(30px)}to{opacity:1;transform:none}}
 .controls{
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:calc(env(safe-area-inset-bottom) + 15px);
     text-align:center;
-    margin-top:20px;
-    z-index:100;
+    z-index:9999;
+}
+#letter{
+    padding-bottom:100px;
 }
 button{padding:12px 20px;border:none;border-radius:30px;cursor:pointer}
 
