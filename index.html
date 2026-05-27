@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sohinee Birthday V2</title>
+<style>
+body{margin:0;font-family:Georgia,serif;overflow:hidden;background:url('https://images.unsplash.com/photo-1468327768560-75b778cbb551?auto=format&fit=crop&w=1800&q=80') center/cover fixed;}
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.25)}
+#stage{height:100vh;display:flex;justify-content:center;align-items:center;position:relative;z-index:2}
+#envelopeWrap{position:relative;animation:float 4s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-12px)}}
+#envelope{width:520px;height:340px;background:#ead8b0;position:relative;border-radius:6px}
+#flap{position:absolute;top:0;left:0;right:0;height:55%;background:#efdfbc;clip-path:polygon(0 0,100% 0,50% 100%);transform-origin:top;transition:1.5s}
+#seal{position:absolute;left:50%;top:20px;transform:translateX(-50%);width:90px;height:90px;border-radius:50%;background:#4a6645;color:white;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:28px;box-shadow:0 0 20px rgba(0,0,0,.3)}
+#letter{display:none;width:min(900px,92vw);height:min(700px,85vh);background:#fffaf0;border-radius:12px;padding:30px;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.4)}
+.page{display:none;height:80%;overflow:auto;animation:flip .55s}
+.page.active{display:block}
+.page p{
+    line-height:1.8;
+    margin-bottom:20px;
+}
+@keyframes flip{from{opacity:0;transform:rotateY(25deg) translateX(30px)}to{opacity:1;transform:none}}
+.controls{text-align:center;margin-top:20px}
+button{padding:12px 20px;border:none;border-radius:30px;cursor:pointer}
+</style>
+</head>
+<body>
+<audio id="bgMusic" loop><source src="Her's - What Once Was (1).mp3"></audio>
+<div class="overlay"></div>
+<div id="stage">
+<div id="envelopeWrap">
+<div id="envelope">
+<div id="flap"></div>
+<div id="seal">✿</div>
+</div>
+</div>
+
+<div id="letter">
+<h1>Dear Sohinee,</h1>
+<div class="page active">
+    <h2>Dear Sohinee,</h2>
+
+    <p><strong>Happy 19th birthday!</strong></p>
+
+    <p>
+        Nineteen is a strange, beautiful age. It sits quietly on the horizon between the familiar comfort of youth and the vast, unwritten landscape of what comes next. Looking at you today, it is genuinely amazing to realize that you have spent nineteen years navigating this world growing, learning, changing, and gathering the quiet strength that defines who you are today.
+    </p>
+
+    <p>
+        The world is a noisy place, full of unexpected twists, sudden turns, and unpredictable currents. It rarely gives us a roadmap, and it almost never plays by the rules. Yet, somehow, amidst all the variables and chaotic trajectories of life, our paths managed to align.
+    </p>
+
+    <p>
+        When I look at where we are right now, I am struck by the sheer probability of us. Out of all the people, all the places, and all the random decisions that could have led us elsewhere, we ended up right here, navigating this specific corner of the universe together. Cheers to you for tackling these nineteen years with grace, even when the world threw its twists at you. You made it here. We made it here. And that, in itself, is something worth celebrating.
+    </p>
+</div>
+<div class="page">
+    <h2>Page 2</h2>
+
+    <p>
+        They say that the best kind of people are the ones who feel like a quiet room in a very loud house. That is exactly what your presence has become to me.
+    </p>
+
+    <p>
+        In a world that is constantly demanding everyone to move faster, do more, and be someone else, being around you feels like a breath of fresh air. With you, there is no pressure to perform, no need to wear a mask, and no requirement to have everything figured out. We can exist in the quiet moments just as easily as we do in the loud, chaotic ones.
+    </p>
+
+    <p>
+        I’ve come to realize that the value of a person isn’t measured by the grand, dramatic gestures, but by the steady, unshakeable consistency of their presence. It’s in the shared glances, the unspoken understanding, and the comfort of knowing that no matter how messy the day gets, there is a baseline of absolute trust between us.
+    </p>
+
+    <p>
+        You have a way of anchoring things. When my mind is spinning or when the day feels a little too heavy, just knowing you are on the other side of the screen, or a phone call away, stabilizes the ground beneath my feet. You don't even have to try; it’s just an inherent part of who you are.
+    </p>
+</div>
+<div class="page">
+    <h2>Page 3</h2>
+
+    <p>
+        Every day, we make thousands of choices. Most of them are mundane what to wear, where to go, how to pass the time. We forget them by the next morning. But then, there are the choices that quietly reshape the entire fabric of our lives.
+    </p>
+
+    <p>
+        Choosing you choosing to let you into my world, choosing to invest my time, my thoughts, and my trust in you is a decision that stands completely apart from the rest. It is a choice I will never, ever regret.
+    </p>
+
+    <p>
+        True connection is rare. People enter our lives for seasons, passing through like weather, changing the atmosphere temporarily before drifting away. But what we’ve built feels entirely different. It’s a foundation. To have someone by my side who truly sees me, who understands the rhythm of my thoughts, and who stands steady through the fluctuations of life is a gift I don't take for granted.
+    </p>
+
+    <p>
+        I look back at the timeline of how far we’ve come, and I see a tapestry of shared jokes, late-night thoughts, and the quiet comfort of mutual support. You have become a constant in a world of variables. If I had to go back to the very beginning and make the choice all over again, I would choose you every single time, without a second thought.
+    </p>
+</div>
+<div class="page">
+    <h2>Page 4</h2>
+
+    <p>
+        As beautiful as our history is, I think what excites me the most is the future. Today doesn’t just mark the end of your eighteenth year; it opens the first blank page of a brand-new chapter.
+    </p>
+
+    <p>
+        I am so incredibly excited for all the colorful chapters still ahead of us. I want to see the places you will go, the things you will accomplish, and the ways you will continue to grow. You have so much potential locked inside you, so many stories waiting to unfold, and I consider myself incredibly lucky that I get a front-row seat to watch it happen.
+    </p>
+
+    <p>
+        There will be more twists and turns, undoubtedly. There will be days that challenge us and days that completely take our breath away with joy. But the beauty of the future isn't that it's certain; it's that we don't have to face the uncertainty alone.
+    </p>
+
+    <p>
+        Whatever colors your next chapters hold whether they are the bright, vibrant shades of success and laughter, or the deeper, quieter tones of reflection and learning I am looking forward to experiencing them with you. We have so many more memories to create, so many more conversations to have, and so much more life to live.
+    </p>
+</div>
+<div class="page">
+    <h2>Page 5</h2>
+
+    <p>
+        But before we get ahead of ourselves and start rushing into the future, let’s anchor ourselves right here in the present. Today belongs entirely to you.
+    </p>
+
+    <p>
+        Nineteen only happens once. It is a golden hour of an age—old enough to stand on your own two feet, yet young enough to have the entire world open before you. I want you to step into today with the full knowledge of how much you matter, how much you are appreciated, and how deeply your presence impacts the people around you (especially me).
+    </p>
+
+    <p>
+        Leave the worries of yesterday behind, don't stress about what tomorrow brings, and just focus on the right now. Surround yourself with things that make you smile, eat the food you love, listen to your favorite music, and let yourself be celebrated. You deserve every ounce of happiness, love, and excitement that comes your way today.
+    </p>
+
+    <p>
+        Have an absolute blast today, Sohinee. Take up space, laugh until your stomach hurts, and rock your day!
+    </p>
+
+    <p>
+        <strong>Happy Birthday, nineteen-year-old. Let's make this year unforgettable.</strong>
+    </p>
+</div>
+<div class="controls">
+<button onclick="prevPage()">Previous</button>
+<span id="count">1 / 5</span>
+<button onclick="nextPage()">Next</button>
+</div>
+</div>
+</div>
+<script>
+const seal=document.getElementById('seal');
+const flap=document.getElementById('flap');
+const letter=document.getElementById('letter');
+const env=document.getElementById('envelopeWrap');
+const music=document.getElementById('bgMusic');
+seal.onclick=()=>{
+ flap.style.transform='rotateX(-180deg)';
+ setTimeout(()=>{
+   env.style.display='none';
+   letter.style.display='block';
+   music.play().catch(()=>{});
+ },1200);
+};
+let p=0,pages=document.querySelectorAll('.page');
+function render(){pages.forEach(x=>x.classList.remove('active'));pages[p].classList.add('active');count.innerText=(p+1)+' / '+pages.length;}
+function nextPage(){if(p<pages.length-1){p++;render();}}
+function prevPage(){if(p>0){p--;render();}}
+</script>
+</body>
+</html>
